@@ -52,7 +52,7 @@ of sets for a topology on the set $c$. And so on and so forth.
 
 \medskip\noindent
 So even though it would take a considerable amount of work to write
-a complete formula $\phi_{scheme}(x)$ with one free variable $x$ in set theory
+a complete formula $\phi_\textup{scheme}(x)$ with one free variable $x$ in set theory
 that expresses the notion ``$x$ is a scheme'', it is possible to do so.
 The same thing should be true for any mathematical object.
 
@@ -482,18 +482,18 @@ the lemma.
 \label{remark-how-to-use-reflection}
 The lemma above can also be proved using the reflection principle.
 However, one has to be careful. Namely, suppose the sentence
-$\phi_{scheme}(X)$ expresses the property ``$X$ is a scheme'', then
-what does the formula $\phi_{scheme}^{V_\alpha}(X)$ mean?
+$\phi_\textup{scheme}(X)$ expresses the property ``$X$ is a scheme'', then
+what does the formula $\phi_\textup{scheme}^{V_\alpha}(X)$ mean?
 It is true that the reflection principle says we can find $\alpha$ such that
 for all $X \in V_\alpha$ we have
-$\phi_{scheme}(X) \leftrightarrow \phi_{scheme}^{V_\alpha}(X)$
+$\phi_\textup{scheme}(X) \leftrightarrow \phi_\textup{scheme}^{V_\alpha}(X)$
 but this is entirely useless. It is only by combining two such
 statements that something interesting happens. For example suppose
-$\phi_{red}(X, Y)$ expresses the property ``$X$, $Y$ are schemes,
+$\phi_\textup{red}(X, Y)$ expresses the property ``$X$, $Y$ are schemes,
 and $Y$ is the reduction of $X$'' (see
 Schemes, Definition \ref{schemes-definition-reduced-induced-scheme}).
 Suppose we apply the reflection principle to the pair of
-formulas $\phi_1(X, Y) = \phi_{red}(X, Y)$,
+formulas $\phi_1(X, Y) = \phi_\textup{red}(X, Y)$,
 $\phi_2(X) = \exists Y, \phi_1(X, Y)$. Then it is easy to see that
 any $\alpha$ produced by the reflection principle has the property that
 given $X \in \Ob(\Sch_\alpha)$ the reduction of
